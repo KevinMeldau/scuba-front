@@ -89,7 +89,7 @@ export default function App() {
 					/>
 				</label>
 				<label>
-					<span>Site</span>
+					<span>Dive Site</span>
 					<input
 						name="site"
 						value={state.newLog.log}
@@ -97,7 +97,7 @@ export default function App() {
 					/>
 				</label>
 				<label>
-					<span>Description</span>
+					<span>Conditions</span>
 					<input
 						name="condition"
 						value={state.newLog.log}
