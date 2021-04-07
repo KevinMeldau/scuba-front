@@ -7,6 +7,7 @@ export default function App() {
 		newLog: {
 			log: "",
 			level: "3",
+			test: "3",
 		},
 	});
 
@@ -45,6 +46,7 @@ export default function App() {
 			newLog: {
 				log: "",
 				level: "3",
+				test: "3",
 			},
 		}));
 	}
@@ -91,6 +93,14 @@ export default function App() {
 						<option value="4">4</option>
 						<option value="5">5</option>
 					</select>
+				</label>
+				<label>
+					<span>TEST</span>
+					<input
+						name="test"
+						value={state.newLog.log}
+						onChange={handleChange}
+					/>
 				</label>
 				<button>ADD SKILL</button>
 			</form>
