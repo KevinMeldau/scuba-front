@@ -3,11 +3,17 @@ import "./styles.css";
 
 export default function App() {
 	const [state, setState] = useState({
-		logs: [{ log: "JavaScript", level: "4" }],
+		logs: [
+			{
+				country: "",
+				site: "",
+				condition: "",
+			},
+		],
 		newLog: {
-			log: "",
-			level: "3",
-			test: "3",
+			country: "",
+			site: "",
+			condition: "",
 		},
 	});
 
@@ -44,9 +50,9 @@ export default function App() {
 		setState(prevState => ({
 			logs: [...prevState.logs, log],
 			newLog: {
-				log: "",
-				level: "3",
-				test: "3",
+				country: "",
+				site: "",
+				condition: "",
 			},
 		}));
 	}
@@ -67,42 +73,38 @@ export default function App() {
 			<hr />
 			{state.logs.map(s => (
 				<article key={s.log}>
-					<div>{s.log}</div> <div>{s.level}</div>
+					<div>{s.country}</div>
+					<div>{s.site}</div>
+					<div>{s.condition}</div>
 				</article>
 			))}
 			<hr />
 			<form onSubmit={addLog}>
 				<label>
-					<span>SKILL</span>
+					<span>Country</span>
 					<input
-						name="log"
+						name="country"
 						value={state.newLog.log}
 						onChange={handleChange}
 					/>
 				</label>
 				<label>
-					<span>LEVEL</span>
-					<select
-						name="level"
-						value={state.newLog.level}
-						onChange={handleChange}
-					>
-						<option value="1">1</option>
-						<option value="2">2</option>
-						<option value="3">3</option>
-						<option value="4">4</option>
-						<option value="5">5</option>
-					</select>
-				</label>
-				<label>
-					<span>TEST</span>
+					<span>Site</span>
 					<input
-						name="test"
+						name="site"
 						value={state.newLog.log}
 						onChange={handleChange}
 					/>
 				</label>
-				<button>ADD SKILL</button>
+				<label>
+					<span>Description</span>
+					<input
+						name="condition"
+						value={state.newLog.log}
+						onChange={handleChange}
+					/>
+				</label>
+				<button>ADD LOG</button>
 			</form>
 		</section>
 	);
