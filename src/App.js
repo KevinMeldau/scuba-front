@@ -69,8 +69,7 @@ export default function App() {
 
 	return (
 		<section>
-			<h2>Dive Logs</h2>
-			<hr />
+			<h2>My Logged Dives</h2>
 			{state.logs.map(s => (
 				<article key={s.log}>
 					<div>{s.country}</div>
@@ -78,7 +77,6 @@ export default function App() {
 					<div>{s.condition}</div>
 				</article>
 			))}
-			<hr />
 			<form onSubmit={addLog}>
 				<label>
 					<span>Country</span>
