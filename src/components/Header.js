@@ -8,30 +8,15 @@ export default function Header() {
 				<img src={companyLogo} alt="Dive logo" />
 				<div className="nav">
 					<div className="nav-items">
-						<ul>
-							<a href="#">
-								<li>About</li>
-							</a>
-							<a href="#">
-								<li>Explore</li>
-							</a>
-							<a href="#">
-								<li>Dive Log</li>
-							</a>
-							<a href="#">
-								<li>Contact</li>
-							</a>
-						</ul>
+						<a href="#">About</a>
+						<a href="#">Explore</a>
+						<a href="#">Dive Logs</a>
+						<a href="#">Contact</a>
 					</div>
 					<div className="nav-login">
-						<ul>
-							<a href="#">
-								<li>Login</li>
-							</a>
-							<a href="#">
-								<li>Register</li>
-							</a>
-						</ul>
+						<a href="#">Login</a>
+						<div class="vl"></div>
+						<a href="#">Register</a>
 					</div>
 				</div>
 			</div>
