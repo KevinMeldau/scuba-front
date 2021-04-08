@@ -30,7 +30,7 @@
 	--clr-gray: #989898;
 	--clr-dark: #444;
 	--clr-accent: #018bba;
-	--clr-accent-dark: #e67e00;
+	--clr-accent-dark: #004b64;
 	--clr-accent-secondary: rgba(25, 83, 10, 0.5);
 	--clr-warning: #cc2121;
 	--transparent-bg-drk: rgba(0, 0, 0, 0.6);
@@ -87,11 +87,12 @@ select {
 	font-size: 1rem;
 	padding: 0.8rem 1rem;
 	color: #f17d80;
-	border: none;
+	border: 1px solid var(--clr-accent-dark);
 	border-radius: 0.2em;
 	outline: none;
 	-webkit-appearance: none;
 	margin-bottom: var(--mgn-btm-sm);
+	background-color: transparent;
 }
 
 button {
