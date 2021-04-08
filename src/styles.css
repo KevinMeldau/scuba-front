@@ -17,6 +17,7 @@
 	--fs-h2: 1.3rem;
 	--fs-h3: 1.1rem;
 	--fs-body: 1rem;
+	--ls-h2: 0.1em;
 	--btn-padding: 0.6em 1.5em;
 	--mgn-btm-none: 0;
 	--mgn-btm-sm: 0.8em;
@@ -39,6 +40,7 @@ body {
 	font-family: "Montserrat", sans-serif;
 	line-height: 1.6;
 	color: var(--clr-light);
+	font-weight: var(--fw-light);
 	height: 100vh;
 	background-color: #000e28;
 	display: grid;
@@ -47,9 +49,7 @@ body {
 }
 
 h2 {
-	color: #f17d80;
-	margin: 0;
-	/* text-align: center; */
+	letter-spacing: var(--ls-h2);
 }
 
 section {
@@ -59,8 +59,8 @@ section {
 section > article {
 	display: flex;
 	justify-content: space-between;
-	min-width: 15rem;
-	color: white;
+	/* min-width: 15rem; */
+	/* color: white; */
 	border-bottom: 1px solid var(--clr-accent);
 	/* margin: 0.1rem; */
 	/* background-color: #737495; */
@@ -68,12 +68,6 @@ section > article {
 
 article > div {
 	padding: 2em 0.5rem;
-}
-
-article > div:nth-child(2) {
-	width: 2rem;
-	background-color: #f17d80;
-	text-align: center;
 }
 
 label {
@@ -90,15 +84,14 @@ label span {
 input,
 select {
 	width: 100%;
-	font-family: Arial, Helvetica, sans-serif;
 	font-size: 1rem;
-	font-weight: bold;
-	padding: 0.4rem;
+	padding: 0.8rem 1rem;
 	color: #f17d80;
-	border: 2px solid #737495;
-	border-radius: 0;
+	border: none;
+	border-radius: 0.2em;
 	outline: none;
 	-webkit-appearance: none;
+	margin-bottom: var(--mgn-btm-sm);
 }
 
 button {
@@ -118,6 +111,6 @@ button:hover {
 	background-color: #737495;
 }
 
-hr {
-	border: 1px solid red;
+form {
+	margin: 4em 0;
 }
