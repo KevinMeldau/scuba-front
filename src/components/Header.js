@@ -1,9 +1,13 @@
 import "../styles.css";
+import companyLogo from "../images/logo.png";
 
 export default function Header() {
 	return (
 		<div className="header">
-			<h1>Header</h1>;
+			<div className="nav-container">
+				<img src={companyLogo} alt="Dive logo" />
+				<div className="nav"></div>
+			</div>
 		</div>
 	);
 }
