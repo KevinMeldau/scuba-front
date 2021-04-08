@@ -32,7 +32,7 @@
 	--clr-accent: #018bba;
 	--clr-accent-dark: #004b64;
 	--clr-accent-secondary: #ff0000;
-	--transparent-nav: rgba(255, 0, 0, 0.6);
+	--transparent-nav: rgba(204, 0, 0, 0.6);
 	--transparent-bg-drk: rgba(0, 14, 40, 1);
 	--transparent-bg-light: rgba(0, 14, 40, 0);
 	--clr-dark-bg: #000e28;
@@ -83,7 +83,7 @@ a {
 		width: 100%;
 		height: 5.5em;
 		font-size: var(--fs-h3);
-		padding: 0 2em;
+		padding: 0 4em;
 		a {
 			color: var(--clr-light);
 			padding: 0 2em;
@@ -99,6 +99,36 @@ a {
 		width: 10%;
 		margin-right: 4em;
 		display: flex;
+	}
+}
+
+.btn {
+	cursor: pointer;
+	display: block;
+	// font-size: 1rem;
+	// margin: 0.5rem 0 0 auto;
+	padding: 1em;
+	background-color: var(--clr-accent-secondary);
+	color: white;
+	border: none;
+	outline: none;
+	:hover {
+		color: white;
+		background-color: red;
+	}
+}
+
+.signup {
+	margin: 0 auto;
+	width: 40vw;
+	.signup-form {
+		display: flex;
+	}
+	input {
+		margin: 0;
+	}
+	.btn-signup {
+		margin-left: 2em;
 	}
 }
 
@@ -148,23 +178,6 @@ select {
 	-webkit-appearance: none;
 	margin-bottom: var(--mgn-btm-sm);
 	background-color: transparent;
-}
-
-button {
-	display: block;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 1rem;
-	margin: 0.5rem 0 0 auto;
-	padding: 0.4rem;
-	background-color: #f17d80;
-	color: white;
-	border: none;
-	outline: none;
-}
-
-button:hover {
-	color: white;
-	background-color: #737495;
 }
 
 form {
