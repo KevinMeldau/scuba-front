@@ -33,7 +33,8 @@
 	--clr-accent-dark: #004b64;
 	--clr-accent-secondary: rgba(25, 83, 10, 0.5);
 	--clr-warning: #cc2121;
-	--transparent-bg-drk: rgba(0, 0, 0, 0.6);
+	--transparent-bg-drk: rgba(0, 14, 40, 1);
+	--transparent-bg-light: rgba(0, 14, 40, 0);
 }
 
 body {
@@ -41,15 +42,18 @@ body {
 	line-height: 1.6;
 	color: var(--clr-light);
 	font-weight: var(--fw-light);
-	height: 100vh;
-	background-color: #000e28;
-	display: grid;
-	justify-items: center;
-	align-items: center;
 }
 
 h2 {
 	letter-spacing: var(--ls-h2);
+}
+
+.container {
+	background-color: #000e28;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 section {
@@ -114,4 +118,28 @@ button:hover {
 
 form {
 	margin: 4em 0;
+}
+
+.header {
+	background-image: linear-gradient(
+			var(--transparent-bg-light) 70%,
+			var(--transparent-bg-drk)
+		),
+		url("./images/bg-top.jpg");
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.footer {
+	background-image: linear-gradient(
+			var(--transparent-bg-light) 70%,
+			var(--transparent-bg-drk)
+		),
+		url("./images/bg-btm.jpg");
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
