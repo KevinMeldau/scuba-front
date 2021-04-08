@@ -56,6 +56,39 @@ h2 {
 	align-items: center;
 }
 
+.header {
+	background-image: linear-gradient(
+			var(--transparent-bg-light) 70%,
+			var(--transparent-bg-drk)
+		),
+		url("./images/bg-top.jpg");
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.nav-container {
+	padding: 100px 0 100px 100px;
+	display: flex;
+}
+
+.nav-container img {
+	width: 10%;
+	margin-right: 4em;
+}
+
+.nav {
+	display: flex;
+	background-color: red;
+	width: 100%;
+}
+
+.nav-items ul,
+.nav-login ul {
+	display: flex;
+}
+
 section {
 	width: 90vw;
 }
@@ -118,23 +151,6 @@ button:hover {
 
 form {
 	margin: 4em 0;
-}
-
-.header {
-	background-image: linear-gradient(
-			var(--transparent-bg-light) 70%,
-			var(--transparent-bg-drk)
-		),
-		url("./images/bg-top.jpg");
-	width: 100%;
-	height: 100vh;
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
-.nav-container {
-	height: 300px;
-	background-color: red;
 }
 
 .footer {
