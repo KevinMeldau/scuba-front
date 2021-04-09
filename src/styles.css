@@ -91,7 +91,6 @@ section {
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, var(--transparent-bg-light)), to(var(--transparent-bg-drk))), url("./images/bg-top.jpg");
   background-image: linear-gradient(var(--transparent-bg-light) 70%, var(--transparent-bg-drk)), url("./images/bg-top.jpg");
   width: 100%;
-  height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
   margin-bottom: var(--mgn-btm-section);
@@ -344,23 +343,78 @@ section {
   margin-bottom: var(--mgn-btm-section);
 }
 
+.logged-dives article > div {
+  padding: 2em 0.5rem;
+}
+
+.logged-dives .table-head {
+  padding-bottom: 0;
+}
+
+.logged-dives article:nth-child(1) {
+  font-weight: var(--fw-semi);
+  color: var(--clr-accent);
+  border-bottom: none;
+  padding: unset;
+}
+
+.logged-dives .logged-dives-container {
+  padding: 0 4em;
+  margin-bottom: var(--mgn-btm-xlg);
+}
+
+.logged-dives article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid var(--clr-accent);
+}
+
+.logged-dives article .country {
+  width: 10%;
+}
+
+.logged-dives article .site {
+  width: 20%;
+}
+
+.logged-dives article .date {
+  width: 10%;
+}
+
+.logged-dives article .condition {
+  width: 60%;
+}
+
 .logged-dives p {
   color: var(--clr-accent);
   margin-bottom: var(--mgn-btm-sm);
 }
 
-section > article {
+.logged-dives .form-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  border-bottom: 1px solid var(--clr-accent);
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
-article > div {
-  padding: 2em 0.5rem;
+.logged-dives form {
+  width: 50vw;
+  padding: 0 4em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.logged-dives form .btn-add-log {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
 }
 
 label {
@@ -370,12 +424,12 @@ label {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 0.5rem;
+  margin-bottom: var(--mgn-btm-md);
 }
 
 label span {
-  color: #737495;
-  width: 8.5rem;
+  color: var(--clr-accent-dark);
+  width: 13rem;
 }
 
 .input-primary,
@@ -393,12 +447,6 @@ label span {
   border: none;
 }
 
-span {
-  text-transform: uppercase;
-  color: var(--clr-accent-secondary);
-  font-weight: var(--fw-bold);
-}
-
 input,
 select {
   width: 100%;
@@ -413,8 +461,10 @@ select {
   background-color: transparent;
 }
 
-form {
-  margin: 4em 0;
+span {
+  text-transform: uppercase;
+  color: var(--clr-accent-secondary);
+  font-weight: var(--fw-bold);
 }
 
 .footer {

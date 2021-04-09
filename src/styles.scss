@@ -88,7 +88,7 @@ section {
 		),
 		url("./images/bg-top.jpg");
 	width: 100%;
-	height: 100vh;
+	// height: 100vh;
 	background-size: cover;
 	background-repeat: no-repeat;
 	margin-bottom: var(--mgn-btm-section);
@@ -120,6 +120,7 @@ section {
 		a:nth-child(1) {
 			padding-left: 0;
 		}
+
 		a {
 			color: var(--clr-light);
 			padding: 0 2em;
@@ -281,31 +282,65 @@ section {
 
 .logged-dives {
 	margin-bottom: var(--mgn-btm-section);
+	article > div {
+		padding: 2em 0.5rem;
+	}
+	.table-head {
+		padding-bottom: 0;
+	}
+	article:nth-child(1) {
+		font-weight: var(--fw-semi);
+		color: var(--clr-accent);
+		border-bottom: none;
+		padding: unset;
+	}
+	.logged-dives-container {
+		padding: 0 4em;
+		margin-bottom: var(--mgn-btm-xlg);
+	}
+	article {
+		display: flex;
+		border-bottom: 1px solid var(--clr-accent);
+		.country {
+			width: 10%;
+		}
+		.site {
+			width: 20%;
+		}
+		.date {
+			width: 10%;
+		}
+		.condition {
+			width: 60%;
+		}
+	}
 	p {
 		color: var(--clr-accent);
 		margin-bottom: var(--mgn-btm-sm);
 	}
-}
-
-section > article {
-	display: flex;
-	justify-content: space-between;
-	border-bottom: 1px solid var(--clr-accent);
-}
-
-article > div {
-	padding: 2em 0.5rem;
+	.form-container {
+		display: flex;
+		justify-content: flex-end;
+	}
+	form {
+		width: 50vw;
+		padding: 0 4em;
+		display: flex;
+		flex-direction: column;
+		.btn-add-log {
+			align-self: flex-end;
+		}
+	}
 }
 
 label {
 	display: flex;
 	align-items: center;
-	margin-top: 0.5rem;
-}
-
-label span {
-	color: #737495;
-	width: 8.5rem;
+	margin-bottom: var(--mgn-btm-md);
+	span {
+		color: var(--clr-accent-dark);
+		width: 13rem;
+	}
 }
 
 .input-primary,
@@ -323,12 +358,6 @@ label span {
 	border: none;
 }
 
-span {
-	text-transform: uppercase;
-	color: var(--clr-accent-secondary);
-	font-weight: var(--fw-bold);
-}
-
 input,
 select {
 	width: 100%;
@@ -343,8 +372,10 @@ select {
 	background-color: transparent;
 }
 
-form {
-	margin: 4em 0;
+span {
+	text-transform: uppercase;
+	color: var(--clr-accent-secondary);
+	font-weight: var(--fw-bold);
 }
 
 .footer {
