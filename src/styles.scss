@@ -309,16 +309,16 @@ section {
 		display: flex;
 		border-bottom: 1px solid var(--clr-accent);
 		.country {
-			width: 10%;
+			width: 20%;
 		}
 		.site {
 			width: 20%;
 		}
 		.date {
-			width: 10%;
+			width: 5%;
 		}
 		.condition {
-			width: 60%;
+			width: 50%;
 		}
 	}
 	p {

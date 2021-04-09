@@ -378,7 +378,7 @@ section {
 }
 
 .logged-dives article .country {
-  width: 10%;
+  width: 20%;
 }
 
 .logged-dives article .site {
@@ -386,11 +386,11 @@ section {
 }
 
 .logged-dives article .date {
-  width: 10%;
+  width: 5%;
 }
 
 .logged-dives article .condition {
-  width: 60%;
+  width: 50%;
 }
 
 .logged-dives p {
