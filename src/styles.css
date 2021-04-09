@@ -25,6 +25,7 @@
   --mgn-btm-md: 1.5em;
   --mgn-btm-lg: 2em;
   --mgn-btm-xlg: 3em;
+  --mgn-btm-section: 9em;
   --fs-xl: 4rem;
   --bdr-radius: 0.3em;
   --clr-light: #fff;
@@ -55,15 +56,21 @@ body {
 h1,
 .h1 {
   font-size: var(--fs-h1);
+  margin-bottom: var(--mgn-btm-md);
 }
 
 h2,
 .h2 {
   font-size: var(--fs-h2);
+  margin-bottom: var(--mgn-btm-md);
 }
 
 a {
   text-decoration: none;
+}
+
+section {
+  width: 90vw;
 }
 
 .container {
@@ -182,7 +189,7 @@ a {
 .signup-container {
   margin: 0 auto;
   width: 50vw;
-  margin-bottom: 7em;
+  margin-bottom: var(--mgn-btm-section);
 }
 
 .signup-container p {
@@ -204,13 +211,37 @@ a {
   margin-left: 2em;
 }
 
-section {
-  width: 90vw;
-}
-
 .vl {
   border-left: 1px solid var(--clr-light);
   height: 2.5em;
+}
+
+.hr {
+  border: 1px solid var(--clr-accent);
+  margin-bottom: var(--mgn-btm-lg);
+}
+
+.hr-dive-sites {
+  width: 30vw;
+}
+
+.dive-sites-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: var(--mgn-btm-section);
+}
+
+.dive-sites-container .site-card {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 30%;
+          flex: 0 1 30%;
+  margin-bottom: var(--mgn-btm-lg);
 }
 
 section > article {
