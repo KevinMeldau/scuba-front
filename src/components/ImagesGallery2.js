@@ -8,8 +8,8 @@ export default function ImagesGallery2() {
 					<img class="gallery_img gallery_img_4" />
 				</div>
 				<p className="img-card-desc">
-					Clownfish or anemonefish are fishes from the subfamily
-					Amphiprioninae in the family Pomacentridae.
+					Manta rays are large rays belonging to the genus Mobula
+					family.
 				</p>
 			</div>
 			<div className="img-card">
@@ -17,8 +17,8 @@ export default function ImagesGallery2() {
 					<img class="gallery_img gallery_img_5" />
 				</div>
 				<p className="img-card-desc">
-					Humans (Homo sapiens) are a species of highly intelligent
-					primates. This is the female kind.
+					Corals are marine invertebrates within the class Anthozoa of
+					the phylum Cnidaria.
 				</p>
 			</div>
 			<div className="img-card">
@@ -26,8 +26,8 @@ export default function ImagesGallery2() {
 					<img class="gallery_img gallery_img_6" />
 				</div>
 				<p className="img-card-desc">
-					Dolphin is a common name of aquatic mammals within the
-					infraorder Cetacea family.
+					The blacktip shark is a species of requiem shark, and part
+					of the family Carcharhinidae.
 				</p>
 			</div>
 		</section>

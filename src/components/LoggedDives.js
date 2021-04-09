@@ -68,8 +68,20 @@ export default function LoggedDives() {
 	}
 
 	return (
-		<section>
-			<h2>My Logged Dives</h2>
+		<section className="logged-dives">
+			<h2 className="h1 uppercase">My Logged Dives</h2>
+			<hr className="hr hr-dive-logged-dives" />
+			<p>
+				Rabbitfish heelsplitter at flounder search clownfish.
+				Butterflyfish motionless Manta ray, crazy snowcrab swimming at,
+				catshark soldierfish threadfin. Colorful blue tang houndshark,
+				swim at banded grunt in, net a king crab. Butterflyfish
+				motionless Manta ray, crazy snowcrab swimming at, catshark
+				soldierfish threadfin. Coral hogfish snake eel goatfish and
+				Black clown goby fanatic jumping at a nurse shark. Mandarinfish
+				in a fire fish, an algae unknown. Myster.
+			</p>
+			<div className="logged-dives-container"></div>
 			{state.logs.map(s => (
 				<article key={s.log}>
 					<div>{s.country}</div>
