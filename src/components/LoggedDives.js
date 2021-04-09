@@ -145,7 +145,7 @@ export default function LoggedDives() {
 						onChange={handleChange}
 					/>
 				</label>
-				<button className="btn btn-add-log">ADD LOG</button>
+				<button className="btn btn-add-log">Add log</button>
 			</form>
 		</section>
 	);

@@ -20,13 +20,17 @@ export default function Header() {
 					</div>
 				</div>
 			</div>
-			<div className="signup">
-				<p>
+			<div className="signup-container">
+				<p className="h2">
 					Signup for our newsletter and receive <span>20% OFF</span>{" "}
 					your next Diving trip
 				</p>
 				<div className="signup-form">
-					<input type="text" />
+					<input
+						type="text"
+						className="input-primary"
+						placeholder="email@email.com"
+					/>
 					<button className="btn btn-signup">Submit</button>
 				</div>
 			</div>
