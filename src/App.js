@@ -16,7 +16,9 @@ export default function App() {
 			<ImagesGallery1 />
 			<About />
 			<ImagesGallery2 />
-			<LoggedDives />
+			<div className="turtle-image">
+				<LoggedDives />
+			</div>
 			<Footer />
 		</div>
 	);

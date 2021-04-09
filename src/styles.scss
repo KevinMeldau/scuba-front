@@ -340,6 +340,13 @@ section {
 	}
 }
 
+.turtle-image {
+	background-image: url("./images/turtle.png");
+	background-position: 20% 95%;
+	background-size: 35em;
+	background-repeat: no-repeat;
+}
+
 label {
 	display: flex;
 	align-items: center;
