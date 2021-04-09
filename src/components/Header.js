@@ -1,3 +1,4 @@
+import { FaFingerprint } from "react-icons/fa";
 import "../styles.css";
 import companyLogo from "../images/logo.png";
 
@@ -13,6 +14,7 @@ export default function Header() {
 						<a href="#">Dive Logs</a>
 						<a href="#">Contact</a>
 						<input type="text" className="input-primary" />
+						<FaFingerprint />
 					</div>
 					<div className="nav-login">
 						<a href="#">Login</a>
