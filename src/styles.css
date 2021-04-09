@@ -426,8 +426,15 @@ section {
 
 .turtle-image {
   background-image: url("./images/turtle.png");
-  background-position: 20% 95%;
+  background-position: 10% 65%;
   background-size: 35em;
+  background-repeat: no-repeat;
+}
+
+.shark-image {
+  background-image: url("./images/shark.png");
+  background-position: 100% 70%;
+  background-size: 30em;
   background-repeat: no-repeat;
 }
 

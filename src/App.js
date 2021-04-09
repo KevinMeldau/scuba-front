@@ -12,7 +12,9 @@ export default function App() {
 	return (
 		<div className="container">
 			<Header />
-			<DiveSites />
+			<div className="shark-image">
+				<DiveSites />
+			</div>
 			<ImagesGallery1 />
 			<About />
 			<ImagesGallery2 />
