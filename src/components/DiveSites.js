@@ -4,7 +4,7 @@ export default function DiveSites() {
 	return (
 		<section className="dive-sites">
 			<h2 className="h1">Dive Sites near you</h2>
-			<hr className="hr hr-dive-sites" />
+			<hr className="hr" />
 			<div className="dive-sites-container">
 				<div className="site-card">
 					<strong className="dive-site-title">ABC Dive</strong>

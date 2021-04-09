@@ -14,7 +14,7 @@
   --fw-normal: 400;
   --fw-semi: 500;
   --fw-bold: 700;
-  --fs-h1: 1.8rem;
+  --fs-h1: 2.7rem;
   --fs-h2: 1.3rem;
   --fs-h3: 1.1rem;
   --fs-body: 1rem;
@@ -219,10 +219,13 @@ section {
 .hr {
   border: 1px solid var(--clr-accent);
   margin-bottom: var(--mgn-btm-lg);
+  width: 30vw;
 }
 
-.hr-dive-sites {
+.hr-dive-gallery {
   width: 30vw;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
 }
 
 .dive-sites {
@@ -245,6 +248,41 @@ section {
       -ms-flex: 0 1 30%;
           flex: 0 1 30%;
   margin-bottom: var(--mgn-btm-md);
+}
+
+.set-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  text-align: right;
+}
+
+.about {
+  margin-bottom: var(--mgn-btm-section);
+}
+
+.about .h1 {
+  margin: 0;
+}
+
+.about .h1:nth-child(2) {
+  margin-bottom: var(--mgn-btm-md);
+}
+
+.about .uppercase {
+  text-transform: uppercase;
+}
+
+.about p {
+  color: var(--clr-accent);
+  margin-bottom: var(--mgn-btm-sm);
 }
 
 section > article {

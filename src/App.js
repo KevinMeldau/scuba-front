@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 import Header from "./components/Header";
 import DiveSites from "./components/DiveSites";
-import Gallery from "./components/Gallery";
+import ImagesGallery from "./components/ImagesGallery";
+import About from "./components/About";
 import LoggedDives from "./components/LoggedDives";
 import Footer from "./components/Footer";
 import "./styles.css";
@@ -11,7 +12,8 @@ export default function App() {
 		<div className="container">
 			<Header />
 			<DiveSites />
-			<Gallery />
+			<About />
+			<ImagesGallery />
 			<LoggedDives />
 			<Footer />
 		</div>

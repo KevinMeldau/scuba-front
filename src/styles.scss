@@ -14,7 +14,7 @@
 	--fw-normal: 400;
 	--fw-semi: 500;
 	--fw-bold: 700;
-	--fs-h1: 1.8rem;
+	--fs-h1: 2.7rem;
 	--fs-h2: 1.3rem;
 	--fs-h3: 1.1rem;
 	--fs-body: 1rem;
@@ -185,10 +185,12 @@ section {
 .hr {
 	border: 1px solid var(--clr-accent);
 	margin-bottom: var(--mgn-btm-lg);
+	width: 30vw;
 }
 
-.hr-dive-sites {
+.hr-dive-gallery {
 	width: 30vw;
+	align-self: flex-end;
 }
 
 .dive-sites {
@@ -201,6 +203,30 @@ section {
 			flex: 0 1 30%;
 			margin-bottom: var(--mgn-btm-md);
 		}
+	}
+}
+
+.set-right {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	text-align: right;
+}
+
+.about {
+	margin-bottom: var(--mgn-btm-section);
+	.h1 {
+		margin: 0;
+	}
+	.h1:nth-child(2) {
+		margin-bottom: var(--mgn-btm-md);
+	}
+	.uppercase {
+		text-transform: uppercase;
+	}
+	p {
+		color: var(--clr-accent);
+		margin-bottom: var(--mgn-btm-sm);
 	}
 }
 
