@@ -92,6 +92,12 @@ section {
 	background-size: cover;
 	background-repeat: no-repeat;
 	margin-bottom: var(--mgn-btm-section);
+	.search {
+		background-image: url("./images/search-solid.svg");
+		background-position: 95% 50%;
+		background-size: 1.5em;
+		background-repeat: no-repeat;
+	}
 }
 
 .nav-container {

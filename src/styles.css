@@ -96,6 +96,13 @@ section {
   margin-bottom: var(--mgn-btm-section);
 }
 
+.header .search {
+  background-image: url("./images/search-solid.svg");
+  background-position: 95% 50%;
+  background-size: 1.5em;
+  background-repeat: no-repeat;
+}
+
 .nav-container {
   padding: 4em 0 6em 6em;
   display: -webkit-box;
