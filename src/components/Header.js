@@ -12,6 +12,7 @@ export default function Header() {
 						<a href="#">Explore</a>
 						<a href="#">Dive Logs</a>
 						<a href="#">Contact</a>
+						<input type="text" className="input-primary" />
 					</div>
 					<div className="nav-login">
 						<a href="#">Login</a>
