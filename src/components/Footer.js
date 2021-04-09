@@ -4,6 +4,8 @@ import { FaPhone } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
 import { FaHandsHelping } from "react-icons/fa";
 import "../styles.css";
+import padiLogo from "../images/padi_logo.png";
+import ssiLogo from "../images/ssi_logo.png";
 
 export default function Footer() {
 	return (
@@ -19,9 +21,11 @@ export default function Footer() {
 					<p className="h2 title">Ask Us Now!</p>
 					<hr />
 					<p>
-						Footer text goes hereFooter text goes hereFooter text
-						goes here
+						Mystery snail lionfish papershell houndshark. Manta ray
+						with lionfish ect.
 					</p>
+					<img src={padiLogo} alt="PADI logo" />
+					<img src={ssiLogo} alt="PADI logo" />
 				</div>
 				<div className="columns column">
 					<FaFish
@@ -33,8 +37,8 @@ export default function Footer() {
 					<p className="h2 title">Information</p>
 					<hr />
 					<p>
-						Footer text goes hereFooter text goes hereFooter text
-						goes here
+						Mystery snail lionfish papershell houndshark. Manta ray
+						with lionfish ect.
 					</p>
 				</div>
 				<div className="columns column">
@@ -52,7 +56,7 @@ export default function Footer() {
 					</div>
 					<div className="email">
 						<FiMail style={{ margin: "0 1em" }} />
-						<p>email@jhon.email.com</p>
+						<p>email@company.com</p>
 					</div>
 				</div>
 			</div>

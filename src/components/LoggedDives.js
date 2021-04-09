@@ -175,14 +175,7 @@ export default function LoggedDives() {
 
 					<label for="start">
 						<span>Date</span>
-						<input
-							type="date"
-							id="start"
-							name="trip-start"
-							value="2018-07-22"
-							min="2018-01-01"
-							max="2025-12-31"
-						></input>
+						<input type="date" id="start" name="trip-start"></input>
 					</label>
 
 					<button className="btn btn-add-log">Add log</button>
