@@ -217,6 +217,7 @@ section {
 
 .about {
 	margin-bottom: var(--mgn-btm-section);
+	// padding: 0 4em;
 	.h1 {
 		margin: 0;
 	}
@@ -283,7 +284,7 @@ section {
 .logged-dives {
 	margin-bottom: var(--mgn-btm-section);
 	article > div {
-		padding: 2em 0.5rem;
+		padding: 2em;
 	}
 	.table-head {
 		padding-bottom: 0;
@@ -295,7 +296,7 @@ section {
 		padding: unset;
 	}
 	.logged-dives-container {
-		padding: 0 4em;
+		padding: 0 4em 0 0;
 		margin-bottom: var(--mgn-btm-xlg);
 	}
 	article {
@@ -408,9 +409,21 @@ span {
 	p {
 		color: var(--clr-accent);
 	}
+	p:nth-child(4) {
+		margin-bottom: var(--mgn-btm-xlg);
+	}
 	.email,
 	.phone {
 		display: flex;
 		align-items: center;
+	}
+	.logos-container {
+		display: flex;
+		align-items: center;
+		.logos {
+			width: 5em;
+			margin-right: 2em;
+			opacity: 0.4;
+		}
 	}
 }

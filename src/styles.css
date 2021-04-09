@@ -344,7 +344,7 @@ section {
 }
 
 .logged-dives article > div {
-  padding: 2em 0.5rem;
+  padding: 2em;
 }
 
 .logged-dives .table-head {
@@ -359,7 +359,7 @@ section {
 }
 
 .logged-dives .logged-dives-container {
-  padding: 0 4em;
+  padding: 0 4em 0 0;
   margin-bottom: var(--mgn-btm-xlg);
 }
 
@@ -507,6 +507,10 @@ span {
   color: var(--clr-accent);
 }
 
+.footer-container p:nth-child(4) {
+  margin-bottom: var(--mgn-btm-xlg);
+}
+
 .footer-container .email,
 .footer-container .phone {
   display: -webkit-box;
@@ -515,5 +519,20 @@ span {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.footer-container .logos-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-container .logos-container .logos {
+  width: 5em;
+  margin-right: 2em;
+  opacity: 0.4;
 }
 /*# sourceMappingURL=styles.css.map */

@@ -24,8 +24,10 @@ export default function Footer() {
 						Mystery snail lionfish papershell houndshark. Manta ray
 						with lionfish ect.
 					</p>
-					<img src={padiLogo} alt="PADI logo" />
-					<img src={ssiLogo} alt="PADI logo" />
+					<div className="logos-container">
+						<img className="logos" src={padiLogo} alt="PADI logo" />
+						<img className="logos" src={ssiLogo} alt="PADI logo" />
+					</div>
 				</div>
 				<div className="columns column">
 					<FaFish
