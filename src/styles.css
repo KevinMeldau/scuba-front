@@ -28,6 +28,7 @@
   --mgn-btm-section: 9em;
   --fs-xl: 4rem;
   --bdr-radius: 0.3em;
+  --bdr-radius-md: 1.5em;
   --clr-light: #fff;
   --clr-light-gray: #d1d1d1;
   --clr-input: #dddcdc;
@@ -37,7 +38,7 @@
   --clr-accent-dark: #004b64;
   --clr-accent-secondary: #ff0000;
   --clr-accent-secondary-drk: #920000;
-  --transparent-nav: rgba(204, 0, 0, 0.6);
+  --transparent-nav: rgba(204, 0, 0, 0.7);
   --transparent-nav-top: rgba(0, 14, 40, 0.6);
   --transparent-bg-drk: rgba(0, 14, 40, 1);
   --transparent-bg-light: rgba(0, 14, 40, 0);
@@ -159,6 +160,7 @@ section {
   height: 5em;
   padding: 0 3em;
   font-size: var(--fs-h3);
+  border-radius: 0 0 var(--bdr-radius-md) var(--bdr-radius-md);
 }
 
 .nav-container .nav .nav-items {
@@ -171,9 +173,10 @@ section {
 }
 
 .nav-container .nav .nav-items input {
-  width: unset;
+  width: 18vw;
   margin: 0;
-  padding: 0.8rem 4em;
+  padding: 0.8rem;
+  letter-spacing: 0;
 }
 
 .nav-container .nav a:nth-child(1) {

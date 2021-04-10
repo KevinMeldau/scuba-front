@@ -16,7 +16,11 @@ export default function Header() {
 						<a href="#">Explore</a>
 						<a href="#">Dive Logs</a>
 						<a href="#">Contact</a>
-						<input type="text" className="input-primary search" />
+						<input
+							type="text"
+							value="What are you looking for?"
+							className="input-primary search"
+						/>
 					</div>
 					<div className="nav-login">
 						<a href="#">Login</a>
