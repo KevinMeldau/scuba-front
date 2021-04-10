@@ -215,11 +215,6 @@ section {
   text-transform: uppercase;
 }
 
-.btn :hover {
-  color: white;
-  background-color: red;
-}
-
 .signup-container {
   margin: 0 auto;
   width: 50vw;
