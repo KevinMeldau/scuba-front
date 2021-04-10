@@ -134,7 +134,7 @@ section {
 }
 
 .nav-container .nav-top p {
-  color: var(--clr-light);
+  color: var(--clr-accent);
   font-weight: var(--fw-bold);
 }
 
@@ -454,7 +454,7 @@ section {
 
 .turtle-image {
   background-image: url("./images/turtle.png");
-  background-position: 10% 65%;
+  background-position: 10% 74%;
   background-size: 35em;
   background-repeat: no-repeat;
 }
@@ -511,7 +511,7 @@ select {
 }
 
 span {
-  color: var(--clr-accent-dark);
+  color: var(--clr-accent);
   font-weight: var(--fw-bold);
 }
 
