@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+// import { useState, useEffect } from "react";
 import Header from "./components/Header";
 import DiveSites from "./components/DiveSites";
 import ImagesGallery1 from "./components/ImagesGallery1";

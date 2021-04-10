@@ -1,9 +1,9 @@
+import "../styles.css";
 import { FaSwimmer } from "react-icons/fa";
 import { FaFish } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
 import { FaHandsHelping } from "react-icons/fa";
-import "../styles.css";
 import padiLogo from "../images/padi_logo.png";
 import ssiLogo from "../images/ssi_logo.png";
 

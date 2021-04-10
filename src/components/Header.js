@@ -5,7 +5,11 @@ export default function Header() {
 	return (
 		<div className="header">
 			<div className="nav-container">
-				<img src={companyLogo} alt="Dive logo" />
+				<div className="nav-top">
+					<p className="">Seabrand Marine Cruises has been </p>
+					<img src={companyLogo} alt="Dive logo" />
+					<p className="">a proud member of the FDI since 1991</p>
+				</div>
 				<div className="nav">
 					<div className="nav-items">
 						<a href="#">About</a>
