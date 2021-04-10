@@ -9,19 +9,19 @@ import Footer from "./components/Footer";
 import "./styles.css";
 
 export default function App() {
-	return (
-		<div className="container">
-			<Header />
-			<div className="shark-image">
-				<DiveSites />
-			</div>
-			<ImagesGallery1 />
-			<About />
-			<ImagesGallery2 />
-			<div className="turtle-image">
-				<LoggedDives />
-			</div>
-			<Footer />
-		</div>
-	);
+  return (
+    <div className="container">
+      <Header />
+      <div className="shark-image">
+        <DiveSites />
+      </div>
+      <ImagesGallery1 />
+      <About />
+      <ImagesGallery2 />
+      <div className="turtle-image">
+        <LoggedDives />
+      </div>
+      <Footer />
+    </div>
+  );
 }

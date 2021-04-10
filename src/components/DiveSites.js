@@ -3,7 +3,9 @@ import "../styles.css";
 export default function DiveSites() {
 	return (
 		<section className="dive-sites">
-			<h2 className="h1">Dive Sites near you</h2>
+			<h2 className="h1">
+				<span>Dive</span> Sites near you
+			</h2>
 			<hr className="hr" />
 			<div className="dive-sites-container">
 				<div className="site-card">

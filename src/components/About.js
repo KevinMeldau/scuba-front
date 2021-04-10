@@ -5,7 +5,9 @@ export default function About() {
 		<section className="about">
 			<div className="set-right">
 				<h2 className="h1 uppercase">Dive Club</h2>
-				<h2 className="h1 ">Explore the world!</h2>
+				<h2 className="h1 ">
+					<span>Explore</span> the world!
+				</h2>
 				<hr className="hr hr-dive-gallery" />
 			</div>
 			<p>
