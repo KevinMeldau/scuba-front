@@ -26,6 +26,7 @@
   --mgn-btm-lg: 2em;
   --mgn-btm-xlg: 3em;
   --mgn-btm-section: 9em;
+  --pad-btm-section: 9em;
   --fs-xl: 4rem;
   --bdr-radius: 0.3em;
   --bdr-radius-md: 1em;
@@ -89,7 +90,7 @@ section {
   background-position: 50% 25%;
   background-size: cover;
   background-repeat: no-repeat;
-  margin-bottom: var(--mgn-btm-section);
+  padding-bottom: var(--pad-btm-section);
   .search {
     background-image: url("./images/search-solid.svg");
     background-position: 95% 50%;
@@ -212,7 +213,11 @@ section {
 }
 
 .dive-sites {
-  margin-bottom: var(--mgn-btm-section);
+  padding-bottom: var(--pad-btm-section);
+  background-image: linear-gradient(
+    var(--transparent-bg-light),
+    var(--transparent-bg-drk)
+  );
   .dive-sites-container {
     display: flex;
     flex-wrap: wrap;
@@ -232,7 +237,7 @@ section {
 }
 
 .about {
-  margin-bottom: var(--mgn-btm-section);
+  padding-bottom: var(--pad-btm-section);
   .h1 {
     margin: 0;
   }
@@ -249,7 +254,7 @@ section {
 }
 
 .images-gallery {
-  margin-bottom: var(--mgn-btm-section);
+  padding-bottom: var(--pad-btm-section);
   display: flex;
   justify-content: space-between;
   .img-card {
@@ -297,7 +302,11 @@ section {
 }
 
 .logged-dives {
-  margin-bottom: var(--mgn-btm-section);
+  padding-bottom: var(--pad-btm-section);
+  background-image: linear-gradient(
+    var(--transparent-bg-light),
+    var(--transparent-bg-drk)
+  );
   article > div {
     padding: 2em;
   }
@@ -354,11 +363,15 @@ section {
   background-position: 10% 74%;
   background-size: 35em;
   background-repeat: no-repeat;
+  position: relative;
+  background-attachment: fixed;
 }
 
 .shark-image {
   background-image: url("./images/shark.png");
-  background-position: 100% 70%;
+  position: relative;
+  background-attachment: fixed;
+  background-position: 80% 40%;
   background-size: 30em;
   background-repeat: no-repeat;
 }
