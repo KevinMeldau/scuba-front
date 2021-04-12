@@ -1,6 +1,6 @@
 # My Dive Site
 
-Check out my **[live site in the wild](https://my-scuba-site.vercel.app/)**, or sit back and watch an **[online demo](https://www.hippovideo.io/video/play/kwHnHzPdMAiuFGcYTn67_m5Nty7fAruY4fsx0w2NSHg?utm_source=hv-campaigns&hreferer=private&_=1616693422827)!**
+Check out my **[live site in the wild](https://my-scuba-site.vercel.app/)**, or sit back and watch an **[online demo](https://www.hippovideo.io/video/play/v7NtUv4t79fhhg4KqjrVz793CeZg_ywgT9JjTo53Whg?utm_source=hv-campaigns&hreferer=private&_=1618242680026&%20Watch%20Video)!**
 
 ## The why (description)
 
