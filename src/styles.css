@@ -413,12 +413,8 @@ section {
   width: 20%;
 }
 
-.logged-dives article .date {
-  width: 5%;
-}
-
 .logged-dives article .condition {
-  width: 50%;
+  width: 60%;
 }
 
 .logged-dives p {
