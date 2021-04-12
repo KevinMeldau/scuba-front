@@ -65,4 +65,4 @@ I love scuba diving. When I lived in Asia I used to go at least once or twice a 
 "lng": "-84.3948"
 },`
 
-![Screen shot of example database result](/images/screenshot-06.jpg)
+![Screen shot of example database result](./src/images/screenshot-06.jpg)
