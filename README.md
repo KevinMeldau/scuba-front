@@ -29,23 +29,23 @@ I love scuba diving. When I lived in Asia I used to go at least once or twice a 
 ### Screen Shots
 
 **Screen shot - header**
-![Screen shot of home page](src/images/screenshot-01.jpg)
+![Screen shot of home page](public/images/screenshot-01.jpg)
 
 **Screen shot - Dive Sites section**
-![Screen shot of dive sites section](src/images/screenshot-02.jpg)
+![Screen shot of dive sites section](public/images/screenshot-02.jpg)
 
 **Screen shot - Logged Dives section**
-![Screen shot of logged dives section](src/images/screenshot-03.jpg)
+![Screen shot of logged dives section](public/images/screenshot-03.jpg)
 
 **Screen shot - Footer**
-![Screen shot of footer](src/images/screenshot-04.jpg)
+![Screen shot of footer](public/images/screenshot-04.jpg)
 
 
 ## Example database result
 
 `{"_id":{"$oid":"6070d76ca533f87180a94e33"},"country":"Mozambique","site":"Moz Dive","condition":"Saw some great looking fish, some ugly ones too","createdAt":{"$date":{"$numberLong":"1618007916549"}},"updatedAt":{"$date":{"$numberLong":"1618007916549"}},"__v":{"$numberInt":"0"}}`
 
-![Screen shot of example database result](src/images/screenshot-05.jpg)
+![Screen shot of example database result](public/images/screenshot-05.jpg)
 
 `"sites": [
 {
@@ -65,4 +65,4 @@ I love scuba diving. When I lived in Asia I used to go at least once or twice a 
 "lng": "-84.3948"
 },`
 
-![Screen shot of example database result](public/images/screenshot-06.jpeg)
+![Screen shot of example database result](public/images/screenshot-06.jpg)
