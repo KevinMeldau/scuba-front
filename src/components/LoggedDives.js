@@ -87,14 +87,13 @@ export default function LoggedDives() {
           <div className="country table-head">Country</div>
           <div className="site table-head">Dive Site</div>
           <div className="condition table-head">Conditions</div>
-          <div className="date table-head">Date</div>
+          {/* <div className="date table-head">Date</div> */}
         </article>
         {state.logs.map((s) => (
           <article key={s.log}>
             <div className="country">{s.country}</div>
             <div className="site">{s.site}</div>
             <div className="condition">{s.condition}</div>
-            <div className="date">DATE</div>
           </article>
         ))}
       </div>
@@ -166,11 +165,6 @@ export default function LoggedDives() {
               value={state.newLog.log}
               onChange={handleChange}
             />
-          </label>
-
-          <label for="start">
-            <span>Date</span>
-            <input type="date" id="start" name="trip-start"></input>
           </label>
 
           <button className="btn btn-add-log">Add log</button>
