@@ -215,6 +215,7 @@ section {
 .dive-sites {
   padding-bottom: var(--pad-btm-section);
   background-image: linear-gradient(
+    var(--transparent-bg-drk),
     var(--transparent-bg-light),
     var(--transparent-bg-drk)
   );
@@ -304,6 +305,7 @@ section {
 .logged-dives {
   padding-bottom: var(--pad-btm-section);
   background-image: linear-gradient(
+    var(--transparent-bg-drk),
     var(--transparent-bg-light),
     var(--transparent-bg-drk)
   );
@@ -358,10 +360,8 @@ section {
   }
 }
 
-.turtle-image {
-  background-image: url("./images/turtle.png");
-  background-position: 10% 74%;
-  background-size: 35em;
+.turtle-image,
+.shark-image {
   background-repeat: no-repeat;
   position: relative;
   background-attachment: fixed;
@@ -369,11 +369,14 @@ section {
 
 .shark-image {
   background-image: url("./images/shark.png");
-  position: relative;
-  background-attachment: fixed;
   background-position: 80% 40%;
   background-size: 30em;
-  background-repeat: no-repeat;
+}
+
+.turtle-image {
+  background-image: url("./images/turtle.png");
+  background-position: 10% 74%;
+  background-size: 35em;
 }
 
 label {
